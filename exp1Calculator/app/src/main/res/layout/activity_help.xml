@@ -1,0 +1,20 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/GridLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="6"
+    android:orientation="vertical"
+    android:rowCount="7">
+    <TextView
+        android:id="@+id/txt_edit"
+        android:layout_column="0"
+        android:layout_columnSpan="5"
+        android:layout_gravity="fill"
+        android:layout_row="0"
+        android:text="这里是帮助!"
+        android:textSize="50sp"
+        android:textAppearance="?android:attr/textAppearanceLarge"/><!--不知道什么意思-->
+
+
+</GridLayout>
